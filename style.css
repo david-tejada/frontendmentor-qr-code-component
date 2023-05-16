@@ -19,11 +19,14 @@ body {
   min-width: 375px;
 }
 
+main {
+  margin-top: auto;
+}
+
 .card {
   background-color: white;
   border-radius: 16px;
   box-shadow: 0 25px 50px hsla(0, 0%, 0%, 0.1);
-  margin-top: auto;
   padding: 1em;
   text-align: center;
   width: 300px;
@@ -45,9 +48,12 @@ body {
   padding: 0 20px;
 }
 
+footer {
+  margin-top: auto;
+}
+
 .attribution {
   font-size: clamp(12px, 2.5vw, 15px);
-  margin-top: auto;
   padding: 1em;
 }
 
