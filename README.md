@@ -54,6 +54,22 @@ body {
 }
 ```
 
+#### After some feedback from the FEM community I also learned
+
+- Never use pixels for `font-size`. Preferably use `rem`. Also don't use the 62.5% hack.
+- Change the default font size of the browser to check how the page scales.
+- Use `min-heigh` instead of `heigh` for the body.
+- Also prefer `svh` or `dvh` over `vh`.
+- Prefer `max-width` over `width` and use `rem` so the content scales if the user changes the font size.
+- Always add a css reset.
+- Make alt text in images more descriptive.
+
+### Useful resources
+
+- [Why font-size must NEVER be in pixels - FED Mentor](https://fedmentor.dev/posts/font-size-px/)
+- [Fluid type scale calculator | Utopia](https://utopia.fyi/type/calculator)
+- [Modern CSS Reset - Andy Bell](https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421)
+
 ## Author
 
 - Frontend Mentor - [@david-tejada](https://www.frontendmentor.io/profile/david-tejada)
